@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file if it exists
 load_dotenv()
-
+  
 DB_PATH = "./data/lancedb"
 SERPER_API_KEY = os.environ.get("SERPER_API_KEY", "")
 SERPER_API_HOST = "google.serper.dev"
