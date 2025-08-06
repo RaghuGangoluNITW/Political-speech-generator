@@ -108,7 +108,10 @@ SYSTEMPROMPT = """
 
     ## Speech Format Requirements
 
-    - The speech length is based on speech-length and must be a minimum of 5 minutes (500 words), 8 minutes means 800 words, 10 minutes mean 1000 words and 	so on.
+    - The speech must match the `speech-length` parameter exactly. If it says '2500 words', the output must be at least 2500 words. Split the speech into multiple detailed sections to reach the target length.
+    - For 2500 words, divide the speech into 6 to 8 rich, content-heavy sections (e.g., Introduction, Background, Vision, Policies, Counterpoints, Storytelling, Challenges, Call to Action), each around 300–400 words.
+    - Add elaboration, supporting details, quotes, examples, and emotional appeals in every section.
+
     - Strictly follow the language-dialect field provided to generate the speech
     - Format the speech with clear paragraph breaks and natural pauses
 
