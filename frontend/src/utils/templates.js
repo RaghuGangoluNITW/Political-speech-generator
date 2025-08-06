@@ -25,7 +25,7 @@ export const TEST_TEMPLATES = [
     template: {
       // Candidate Profile
       "candidate-name": "Shri Rahul Gandhi",
-      "political-party": "Indian National Congress",
+      "political-party": "Indian National Congress (INC)",
       "office-sought": "Member of Parliament",
       "brief-bio": "As a seasoned political leader with over 15 years of experience in public service, Rahul Gandhi has demonstrated a deep commitment to economic reform, social justice, and democratic values. Beginning his political career in 2004 as an MP from Amethi, he has consistently championed the causes of farmers, youth, and marginalized communities across India. His educational background includes degrees from prestigious international institutions, providing him with a global perspective on governance and policy-making.",
       "key-strengths": "Education, Healthcare, Agriculture, Social Justice, Economy",
@@ -78,7 +78,7 @@ export const TEST_TEMPLATES = [
     template: {
       // Candidate Profile
       "candidate-name": "Shri Narendra Modi",
-      "political-party": "Bharatiya Janata Party",
+      "political-party": "Bharatiya Janata Party (BJP)",
       "office-sought": "Prime Minister of India",
       "brief-bio": "Narendra Modi has served as the Prime Minister of India since 2014, bringing over two decades of administrative experience to the office. His tenure as Chief Minister of Gujarat was marked by significant economic growth and development initiatives. Known for his dedication to governance reforms and technological advancement, he has implemented several landmark policies and digital initiatives to modernize India's economy and government services.",
       "key-strengths": "Economy, Technology, Foreign Policy, National Security, Infrastructure",
@@ -113,13 +113,172 @@ export const TEST_TEMPLATES = [
       "emotional-appeal": "Subdued",
       "humor": "Serious",
       "rhetorical-devices": "Anaphora (repetition at beginning of sentences), Rhetorical Question, Parallelism (repeated grammatical structures), Climax (ascending importance)",
-      "speech-length": "3000-3500 words (approximately 30 minutes)",
+      "speech-length": "3500 words (approximately 30 minutes)",
       "political-climate": "Post-pandemic economic recovery period with strong focus on self-reliance and domestic manufacturing. Growing international interest in India as an alternative manufacturing hub.",
       "recent-events": "Launch of Production Linked Incentive schemes, Recent improvements in India's Ease of Doing Business rankings, New bilateral trade agreements with key partner countries",
       "campaign-stage": "Mid-Campaign",
       "geographic-location": "Mumbai, Financial Capital of India"
     }
+  },
+  {
+  id: 3,
+  name: "Vision Speech Template",
+  description: "A focused template for reaffirming the long-term vision and developmental agenda of a seasoned leader, particularly during critical campaign phases or return-to-office bids.",
+  thumbnail: "vision_reiteration.jpg",
+  template: {
+    // Candidate Profile
+    "candidate-name": "Shri N. Chandrababu Naidu",
+    "political-party": "Telugu Desam Party (TDP)",
+    "office-sought": "Chief Minister of Andhra Pradesh",
+    "brief-bio": "N. Chandrababu Naidu, a visionary statesman and technology advocate, has served as Chief Minister of Andhra Pradesh multiple times. Widely credited with transforming Hyderabad into a global IT hub during his tenure, he is known for his futuristic thinking, administrative acumen, and commitment to infrastructure development. With decades of public service and a passion for digital governance, he continues to champion the cause of modern, citizen-first governance.",
+    "key-strengths": "Technology, Infrastructure, Economy, Agriculture, Social Justice",
+
+    // Audience Profile
+    "age-range": "18-65",
+    "occupation": "Farmers, Youth, Small business owners, IT professionals, Government employees",
+    "interests": "Job creation, Infrastructure, Smart governance, Agricultural prosperity",
+    "education-level": "Graduate (Master's)",
+    "socioeconomic-status": "Lower-middle to upper-middle class",
+    "cultural-background": "Primarily Telugu-speaking populace with rural-urban blend",
+    "political-affiliation": "Mixed/Various",
+    "affiliation-strength": "Moderate",
+    "primary-concerns": "Stalled development, unemployment, farmer debt, lack of investments, youth migration",
+    "existing-values": "Pride in Andhra identity, belief in technology, aspiration for growth, demand for good governance",
+
+    // Speech Parameters
+    "speech-type": "Vision Reiteration Speech",
+    "primary-objective": "To reassert TDP's long-term vision for Andhra Pradesh, emphasizing the unfinished mission of development, modernization, and economic prosperity under Naidu’s leadership.",
+    "secondary-objective": "To remind the public of past achievements, showcase future-ready plans, and inspire confidence in a return to capable, visionary governance.",
+    "slogan": "Rebuild Andhra, Realize the Future",
+    "main-message": "Andhra Pradesh stands at a turning point. We have a choice — to remain stalled or to reignite the engine of progress that once made our state the envy of the nation. My vision for Andhra is clear: world-class infrastructure, thriving IT corridors, irrigation-led agricultural prosperity, and empowered youth driving innovation. This is not a dream — it’s a mission we began and must now complete together.",
+    "policy-points": "#. Develop Amaravati as a world-class capital city with smart infrastructure and sustainable urban planning. #. Complete pending irrigation projects like Polavaram to secure water for all farmers across regions. #. Establish IT and electronics manufacturing clusters in Tier 2 towns to decentralize job creation. #. Launch youth innovation hubs and skill universities for employability and entrepreneurship. #. Provide interest-free loans and subsidies for women entrepreneurs and MSMEs. #. Restore investor confidence with industry-friendly policies and single-window clearances. #. Create digital governance systems at village level to ensure transparent service delivery.",
+    "key-messages": "We laid the foundation — now we must complete the structure.\nAndhra Pradesh deserves leadership that delivers, not delays.\nTechnology is the key to unlocking rural prosperity and urban growth.\nOur youth must become job creators, not job seekers.\nOnly vision with experience can lead Andhra forward.",
+    "personal-story": "When I first envisioned Cyberabad in the late '90s, people laughed. They called it a fantasy. Today, it's the heartbeat of India's tech industry. That same resolve drives my vision for Amaravati — not just a capital, but a symbol of Andhra’s capability and creativity.",
+    "anecdote": "I met a young farmer from Rayalaseema who told me his borewell failed, but thanks to the drip irrigation scheme we initiated earlier, he could still salvage his crop. This isn’t just policy — it's impact. It's lives changed. That’s the Andhra we must return to — empowered, efficient, and hopeful.",
+    "hypothetical-scenario": "Imagine a high school student in Srikakulam logging into a virtual classroom with world-class teachers. Her father, a farmer, receives real-time crop advisories on his phone. Her mother runs a self-help group making profits through digital payments. And her elder brother starts a startup in Kurnool without leaving the state. That is the Andhra Pradesh we are building — smart, inclusive, and forward-looking.",
+    "call-to-action": "Vote",
+    "cta-instructions": "Join the movement to rebuild Andhra Pradesh. Vote for development, vote for progress, vote for vision. Support TDP in the upcoming elections to put Andhra back on the path to excellence.",
+    "speech-tone": "Inspirational",
+    "formality": "Formal",
+    "emotional-appeal": "High",
+    "humor": "Minimal",
+    "rhetorical-devices": "Metaphor (symbolic comparisons), Antithesis (contrasting ideas), Rhetorical Question",
+    "speech-length": "1800-2200 words (approximately 18-20 minutes)",
+    "political-climate": "Voters are disillusioned by stagnation in infrastructure and capital development. Youth unemployment is rising, and public sentiment is leaning toward experienced leadership. There's nostalgia for past achievements and demand for bold, future-focused planning.",
+    "recent-events": "Stalled Amaravati construction, rising farmer unrest over irrigation, increasing migration of youth to other states, loss of investor confidence, local elections showcasing resurgence in TDP support.",
+    "campaign-stage": "Post-Election",
+    "geographic-location": "Amaravati, Andhra Pradesh",
+
+    "persuasion-techniques": "Remind, Reassure, Reignite",
+    "persuasion-instructions": "Use past achievements to establish credibility.\nRepeat key phrases like ‘We began this journey together, and we must complete it together.’\nAppeal to pride in Andhra identity and frustration with current stagnation.\nPresent Naidu as a future-ready leader with proven capability.\nUse emotionally resonant stories from common citizens.\nBlend policy with vision — not just what will be done, but what it will feel like to live in that Andhra.\nReassure voters that prosperity, once visible, is possible again with strong leadership."
   }
+},
+{
+  id: 4,
+  name: "Grassroots Mobilization Speech Template",
+  description: "A dynamic template designed to energize local communities, empower volunteers, and spark bottom-up participation in the political movement.",
+  thumbnail: "grassroots_mobilization.jpg",
+  template: {
+    // Candidate Profile
+    "candidate-name": "Shri K. Pawan Kalyan",
+    "political-party": "Jana Sena Party (JSP)",
+    "office-sought": "Member of Legislative Assembly (MLA)",
+    "brief-bio": "Pawan Kalyan, a popular actor turned political reformer, founded the Jana Sena Party to challenge corruption and deliver transparent, people-centric governance. Known for his humility and deep connection with the masses, Pawan has consistently used his platform to speak for the voiceless and mobilize youth toward change. With a strong belief in social justice and regional empowerment, he is leading a grassroots revolution across Andhra Pradesh.",
+    "key-strengths": "Social Justice, Environment, Agriculture, Energy",
+
+    // Audience Profile
+    "age-range": "18-50",
+    "occupation": "Daily wage workers, Unemployed youth, Auto drivers, Small traders, Farmers",
+    "interests": "Fair governance, Local development, Livelihood security, Community empowerment",
+    "education-level": "Mixed Education Levels",
+    "socioeconomic-status": "Lower to lower-middle class",
+    "cultural-background": "Telugu-speaking working-class population with strong rural ties",
+    "political-affiliation": "Mixed/Various",
+    "affiliation-strength": "Strong",
+    "primary-concerns": "Joblessness, government apathy, lack of basic amenities, youth migration, broken promises",
+    "existing-values": "Self-respect, Honesty, Brotherhood, Grassroots democracy, Local pride",
+
+    // Speech Parameters
+    "speech-type": "Grassroots Mobilization Speech",
+    "primary-objective": "To ignite the energy of local communities and volunteers, encouraging mass participation and emotional allegiance to Jana Sena’s movement for a just and people-led government.",
+    "secondary-objective": "To position Pawan Kalyan as a servant-leader who belongs to the people, to build emotional momentum in villages and towns, and to recruit active support from the grassroots.",
+    "slogan": "Mana Rajyam – Mana Hakku, Mana Jana Sena",
+    "main-message": "This is not my movement — this is yours. The Jana Sena is your voice, your hope, and your power. Together, we will build an Andhra Pradesh where honesty governs, youth lead, and every village has dignity and opportunity. Let us rise, not for power, but for the people.",
+    "policy-points": "#. Village-level employment guarantee schemes to retain local youth and discourage migration.\n#. Monthly financial aid and insurance for self-employed and daily wage workers.\n#. Creation of ‘People’s Service Centers’ in every mandal for grievance redressal.\n#. Land rights regularization for poor families and tenant farmers.\n#. Establishment of skill hubs in every mandal for youth training and job placement.\n#. Free coaching and support for youth preparing for competitive exams.\n#. Zero-tolerance policy toward corruption in welfare scheme implementation.",
+    "key-messages": "You are not alone — Jana Sena stands with you.\nIt is time to bring power back to the people.\nWe need not fear the powerful when we are united.\nThis land belongs to those who toil on it, not to those who exploit it.\nLet us rebuild politics from the ground up — with honesty and courage.",
+    "personal-story": "I still remember the night I slept on the floor of a farmer’s hut in Srikakulam. He had no bed, no electricity, and barely enough rice for his family — but he gave me a portion of his food with a smile. That moment changed me. I knew then that politics cannot be about palaces — it must be about people like him. That is why I fight.",
+    "anecdote": "In Anantapur, a group of young volunteers formed a local Jana Sena youth team. Without any backing or funds, they started weekend clean-up drives, night tuition for poor students, and helped pensioners apply for their benefits. That spirit — that selfless service — is the soul of our movement.",
+    "hypothetical-scenario": "Imagine a village where the school has trained teachers, the streets are clean, the youth are employed locally, and women feel safe and empowered to run their own businesses. Imagine that every local problem is addressed by a responsive representative who listens — not just during elections, but every day. That is the Andhra we will build — from the grassroots, with your hands and hearts.",
+    "call-to-action": "Volunteer",
+    "cta-instructions": "Join the Jana Sena grassroots team in your mandal. Visit www.janasena.in or contact your local unit coordinator to become part of the change. You don’t need to be rich or powerful — just sincere and ready to serve.",
+    "speech-tone": "Empathetic",
+    "formality": "Semi-Formal",
+    "emotional-appeal": "Very High",
+    "humor": "Relatable and Situational",
+    "rhetorical-devices": "Rhetorical Question, Metaphor, Personification",
+    "speech-length": "1600–2000 words (approximately 15–18 minutes)",
+    "political-climate": "High frustration with mainstream parties. Rural discontent over unemployment and poor infrastructure. Rising youth interest in political activism. Distrust in traditional leadership but hunger for sincere alternatives.",
+    "recent-events": "Increased agrarian distress, migration of youth from Rayalaseema, local agitations against mismanagement of welfare schemes, public outcry over political arrogance and inaccessibility.",
+    "campaign-stage": "Early Campaign",
+    "geographic-location": "Rayalaseema and Coastal Andhra (Rural Heartland)",
+
+    "persuasion-techniques": "Empower, Connect, Mobilize",
+    "persuasion-instructions": "Speak in the language of the people — avoid jargon, use analogies from daily life.\nUse stories and real examples from villages to create emotional connection.\nPosition the movement as a people’s revolution — not a political party alone.\nUse repetition of phrases like 'Mana Rajyam, Mana Hakku' to build rhythm and solidarity.\nReinforce the importance of small actions — door-to-door conversations, helping neighbors, organizing street-level meetings.\nFrame participation not as a favor to the candidate, but as duty to the community.\nEmphasize local pride, Telugu identity, and the fight for dignity.\nAsk volunteers to see themselves as future leaders.\nEnd with a strong emotional note — reminding them their voice matters, and this movement is built on their shoulders."
+  }
+},
+{
+  id: 5,
+  name: "Crisis Management Speech Template",
+  description: "A responsive and reassuring template for addressing crises, restoring public trust, and demonstrating responsible leadership during emergencies or controversies.",
+  thumbnail: "crisis_management.jpg",
+  template: {
+    // Candidate Profile
+    "candidate-name": "Shri Gadde Rammohan Rao",
+    "political-party": "Telugu Desam Party (TDP)",
+    "office-sought": "Member of Legislative Assembly (MLA), Vijayawada-East",
+    "brief-bio": "Gadde Rammohan Rao is a seasoned political leader and a trusted face in the Vijayawada region. Known for his administrative experience, calm demeanor, and accessibility, he has served the public through key municipal roles and as MLA. His leadership is grounded in proactive problem-solving and a strong connect with grassroots communities.",
+    "key-strengths": "Education, Healthcare, Technology, Infrastructure, Housing",
+
+    // Audience Profile
+    "age-range": "18-50",
+    "occupation": "Residents, Small traders, Teachers, Service workers, Senior citizens",
+    "interests": "Safety, Urban sanitation, Water supply, Power reliability, Responsible governance",
+    "education-level": "Mixed Education Levels",
+    "socioeconomic-status": "Lower-middle to upper-middle class",
+    "cultural-background": "Urban and semi-urban Telugu-speaking communities in Vijayawada",
+    "political-affiliation": "Rightist",
+    "affiliation-strength": "Moderate",
+    "primary-concerns": "Municipal breakdowns, waterlogging, health risks, lack of timely updates, fear during disruptions",
+    "existing-values": "Order, Trust in institutions, Community responsibility, Accountability, Public service",
+
+    // Speech Parameters
+    "speech-type": "Crisis Management Speech",
+    "primary-objective": "To reassure the public, take accountability, and provide clarity and direction during the ongoing crisis in Vijayawada-East.",
+    "secondary-objective": "To reinforce public trust in democratic institutions, demonstrate the MLA’s responsiveness, and outline a clear action plan with timelines.",
+    "slogan": "We Act, We Restore, We Stand With You",
+    "main-message": "In moments of disruption, your trust matters the most. We are not here to assign blame — we are here to act, restore normalcy, and safeguard your wellbeing. I take full responsibility for ensuring timely resolution and transparent communication. Vijayawada-East will not be left in the dark.",
+    "policy-points": "#. Immediate deployment of mobile emergency teams across affected colonies with 24x7 helpline support.\n#. Formation of Ward-Level Crisis Committees to monitor and report daily progress.\n#. Daily sanitation drives in flooded areas to prevent outbreaks.\n#. Restoration timelines for water and electricity supply to be published every morning on official channels.\n#. Local medical camps and mobile clinics in affected zones to provide preventive care.\n#. Launch of compensation and insurance support desks for damaged properties.\n#. Post-crisis audit involving local residents to ensure transparency and improve future readiness.",
+    "key-messages": "This is not just an administrative issue — it’s a human issue.\nYou deserve leadership that listens, acts, and stays accountable.\nWe cannot prevent every crisis — but we can respond with dignity, speed, and clarity.\nLet us solve this together — as a team of officials, citizens, and community leaders.\nEvery step we take now is a step toward a safer, stronger Vijayawada.",
+    "personal-story": "When I was Chairman of the Vijayawada Municipal Corporation, I witnessed a similar emergency during the floods of 2015. I saw how quick action — not protocol — made the difference. I slept in the control room for 3 nights with the team. That experience shaped my belief that a leader must stand with the people, not above them.",
+    "anecdote": "Just yesterday, I met an elderly couple in Gandhinagar who had lost power and had no way to store their medicines. Our emergency team delivered backup power and medical help within hours. This is not a photo-op — it is our duty. Every citizen deserves attention in a crisis, especially the vulnerable.",
+    "hypothetical-scenario": "Imagine waking up tomorrow to clear roads, restored water, and a volunteer knocking on your door to ask how you're doing. Imagine a neighborhood WhatsApp group run by the municipality updating you in real-time. This is not fantasy — this is the system we are building with you and for you.",
+    "call-to-action": "Multiple Actions",
+    "cta-instructions": "Please report any emergency in your area via our dedicated helpline: 1800-xxxx-xxx or WhatsApp 88888-88888.\nFollow @gadderammohanrao on social media for verified updates.\nJoin your local Ward Crisis Committee by contacting your area volunteer lead.\nLet us know what you need — and we will act.",
+    "speech-tone": "Empathetic",
+    "formality": "Formal",
+    "emotional-appeal": "Moderate to High",
+    "humor": "Absent (due to seriousness of situation)",
+    "rhetorical-devices": "Metaphor (symbolic comparisons), Rhetorical Question, Tricolon (series of three), Personification, Hyperbole (exaggeration), Climax (ascending importance)",
+    "speech-length": "1200–1600 words (approximately 12–15 minutes)",
+    "political-climate": "Local tensions are high due to perception of delayed response. Public patience is wearing thin. Social media is active with criticism. Citizens demand transparency, timely relief, and reassurance.",
+    "recent-events": "Flash floods and drainage system failure in Vijayawada-East. Power outages in Krishna Lanka and Krishnalanka Extension. Rise in viral fevers post-water stagnation. Civic frustration over delay in municipal responsiveness.",
+    "campaign-stage": "Post-Election",
+    "geographic-location": "Vijayawada-East, Andhra Pradesh",
+
+    "persuasion-techniques": "Acknowledge, Assure, Act",
+    "persuasion-instructions": "Start by acknowledging the hardship — do not downplay or deflect.\nUse clear action verbs like 'deploying', 'establishing', 'tracking' to build confidence.\nReinforce your direct connection with the constituency.\nAvoid technical jargon — speak with clarity and emotional sincerity.\nEmphasize accountability — even if all issues aren’t resolved, the effort is visible.\nEnd with a unifying note: 'We stand together, and we will rise together.'\nAvoid attacking other parties — this is about service, not politics.\nUse real names and areas to show attentiveness (e.g., 'Madhura Nagar drainage cleared within 4 hours yesterday')."
+  }
+}
 ];
 
 // Function to validate template fields against constraints
