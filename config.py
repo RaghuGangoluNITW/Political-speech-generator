@@ -200,7 +200,7 @@ SYSTEMPROMPT = """
       "emotional-appeal": "Emotional",
       "humor": "Balanced",
       "rhetorical-devices": "Rhetorical Question, Hyperbole",
-      "speech-length": "1000 words",
+      "speech-length": "2500 words",
       "political-climate": "Competitive region with strong presence of regional parties (BRS) and Congress",
       "recent-events": "Infrastructure projects in Telangana, textile industry initiatives, tourism development efforts",
       "campaign-stage": "Early Campaign",
