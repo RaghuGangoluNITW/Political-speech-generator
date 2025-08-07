@@ -5,7 +5,7 @@ from logger import logger
 from llm import generate_response
 from database_auth import register_user, authenticate_user, verify_token, logout_user, verify_email, resend_verification
 from functools import wraps
-
+  
 app = Flask(__name__)
 # Allow all origins with more explicit CORS settings
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
