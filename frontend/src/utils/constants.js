@@ -23,7 +23,7 @@ export const ADMIN_USER = {
 
 // Azure Translator API Configuration
 export const AZURE_TRANSLATOR_API_KEY = process.env.REACT_APP_AZURE_TRANSLATOR_API_KEY || '';
-export const AZURE_TRANSLATOR_REGION = process.env.REACT_APP_AZURE_TRANSLATOR_REGION || 'centralindia';
+export const AZURE_TRANSLATOR_REGION = process.env.REACT_APP_AZURE_TRANSLATOR_REGION || '';
 
 // API Keys for external services
 export const SAPLING_API_KEY = process.env.REACT_APP_SAPLING_API_KEY || '';
@@ -268,6 +268,18 @@ export const SPEECH_TYPE_OPTIONS = [
   { value: 'Grassroots Mobilization Speech', label: 'Grassroots Mobilization Speech' },
   { value: 'Vision Reiteration Speech', label: 'Vision Reiteration Speech' },
   { value: 'Post-Campaign Speech', label: 'Post-Campaign Speech' },
+  { value: 'Independence Day Speech', label: 'Independence Day Speech' },
+  { value: 'Republic Day Speech', label: 'Republic Day Speech' },
+  { value: 'Minority Community Speech', label: 'Minority Community Speech' },
+  { value: 'Youth Rally Speech', label: 'Youth Rally Speech' },
+  { value: 'Farmers Rally Speech', label: 'Farmers Rally Speech' },
+  { value: 'Women Empowerment Speech', label: 'Women Empowerment Speech' },
+  { value: 'Anti-Corruption Speech', label: 'Anti-Corruption Speech' },
+  { value: 'Policy Announcement Speech', label: 'Policy Announcement Speech' },
+  { value: 'Development Speech', label: 'Development Speech' },
+  { value: 'Unity Speech', label: 'Unity Speech' },
+  { value: 'Inauguration Speech', label: 'Inauguration Speech' },
+  { value: 'Town Hall Speech', label: 'Town Hall Speech' },
   { value: 'other', label: 'Other Speech Type' },
 ];
 
@@ -438,6 +450,7 @@ export const RHETORICAL_DEVICES_OPTIONS = [
   { value: 'Personification', label: 'Personification' },
   { value: 'Hyperbole', label: 'Hyperbole (exaggeration)' },
   { value: 'Climax', label: 'Climax (ascending importance)' },
+  { value: 'Historical Reference', label: 'Historical Reference' },
 ];
 
 export const PRIMARY_OBJECTIVE_MAP = {
