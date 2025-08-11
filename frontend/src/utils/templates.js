@@ -331,7 +331,61 @@ export const TEST_TEMPLATES = [
     "persuasion-techniques": "Honor, Inspire, Mobilize",
     "persuasion-instructions": "Begin by honoring freedom fighters and the sacrifices of ordinary citizens.\nUse inclusive language to bring together people of all political and social backgrounds.\nHighlight tangible achievements while setting a vision for the future.\nInspire with imagery of a stronger, united India.\nEncourage individual contributions to nation-building.\nAvoid divisive topics — focus on common goals.\nClose with a unifying patriotic chant, such as 'Jai Hind!' or 'Vande Mataram!'."
   }
+},
+  {
+  "id": 7,
+  "name": "Day-to-Day Event Speech Template",
+  "description": "A versatile and engaging speech template designed for MLA Shri Gadde Rammohan Rao to address various public functions, inaugurations, community programs, and sporting events. It emphasizes appreciation, encouragement, and community spirit.",
+  "thumbnail": "general_event.jpg",
+  "template": {
+    // Candidate Profile
+    "candidate-name": "Shri Gadde Rammohan Rao",
+    "political-party": "Telugu Desam Party (TDP)",
+    "office-sought": "Member of Legislative Assembly (MLA), Vijayawada",
+    "brief-bio": "Gadde Rammohan Rao is a respected leader from Vijayawada, recognized for his deep commitment to public service, community development, and transparent governance. He has served as MLA and in key municipal roles, championing initiatives in education, infrastructure, sports, and public welfare.",
+    "key-strengths": "Education, Infrastructure, Sports Promotion, Healthcare, Civic Development",
+
+    // Audience Profile
+    "age-range": "All ages",
+    "occupation": "Students, Teachers, Sports personalities, Working professionals, Local residents",
+    "interests": "Community growth, Sports, Education, Cultural programs, Youth empowerment",
+    "education-level": "Mixed Education Levels",
+    "socioeconomic-status": "Lower to upper-middle class",
+    "cultural-background": "Urban and semi-urban Telugu-speaking communities",
+    "political-affiliation": "Mixed/Various",
+    "affiliation-strength": "Moderate",
+    "primary-concerns": "Community development, youth opportunities, sports promotion, civic pride",
+    "existing-values": "Hard work, Community spirit, Discipline, Teamwork",
+
+    // Speech Parameters
+    "speech-type": "Guest of Honour Address",
+    "primary-objective": "To appreciate organizers, encourage participants, and inspire community engagement.",
+    "secondary-objective": "To highlight the importance of teamwork, discipline, and community collaboration.",
+    "slogan": "Together We Achieve More",
+    "main-message": "Events like these strengthen not only our bodies but also our bonds as a community, fostering discipline, teamwork, and a shared spirit of progress.",
+    "policy-points": "#. Continued support for sports infrastructure in Vijayawada.\n#. Promotion of youth talent through local and national-level tournaments.\n#. Collaboration with educational institutions for holistic development.\n#. Encouraging women’s participation in sports and leadership roles.\n#. Integration of health and fitness programs into community life.",
+    "key-messages": "Every event is an opportunity to unite.\nSports teach discipline, respect, and perseverance.\nOur youth are our greatest asset.\nTeamwork builds stronger communities.",
+    "personal-story": "During my early years, I participated in inter-school sports meets. Winning or losing mattered less than the friendships built and the lessons learned about unity and discipline.",
+    "anecdote": "Recently, I met a young volleyball player from our city who told me how community events motivated her to dream big and aim for the national level.",
+    "hypothetical-scenario": "Imagine a Vijayawada where every school has a playground, every child participates in at least one sport, and every community event is celebrated with the same enthusiasm as today.",
+    "call-to-action": "Multiple Actions",
+    "cta-instructions": "Encourage youth to actively participate in sports and community activities.\nSupport local sports teams.\nVolunteer for event organization.\nPromote a healthy lifestyle in your neighborhoods.",
+    "speech-tone": "Encouraging and Inspirational",
+    "formality": "Semi-formal",
+    "emotional-appeal": "Medium-High",
+    "humor": "Light and context-appropriate",
+    "rhetorical-devices": "Alliteration, Anecdotes, Parallelism, Metaphor",
+    "speech-length": "1500-2000 words (approximately 15-20 minutes)",
+    "political-climate": "Community-focused, non-partisan, cooperative environment.",
+    "recent-events": "Local tournaments, community welfare programs, youth festivals.",
+    "campaign-stage": "Post-Election",
+    "geographic-location": "Vijayawada, Andhra Pradesh",
+
+    "persuasion-techniques": "Appreciate, Inspire, Motivate",
+    "persuasion-instructions": "Start by acknowledging and thanking organizers and participants.\nHighlight the role of sports and events in building stronger communities.\nEncourage continued involvement in such activities.\nUse simple and inclusive language.\nEnd with a unifying and motivating statement."
+  }
 }
+
 ];
 
 // Function to validate template fields against constraints
