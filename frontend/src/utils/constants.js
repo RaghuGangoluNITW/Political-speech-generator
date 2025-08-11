@@ -282,7 +282,7 @@ export const SPEECH_TYPE_OPTIONS = [
   { value: 'Unity Speech', label: 'Unity Speech' },
   { value: 'Inauguration Speech', label: 'Inauguration Speech' },
   { value: 'Town Hall Speech', label: 'Town Hall Speech' },
-  { value: 'Town Hall Speech', label: 'Guest of Honour Address' },
+  { value: 'Guest of Honour Address', label: 'Guest of Honour Address' },
   { value: 'other', label: 'Other Speech Type' },
 ];
 
