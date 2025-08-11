@@ -346,7 +346,7 @@ export const TEST_TEMPLATES = [
     "key-strengths": "Education, Infrastructure, Sports Promotion, Healthcare, Civic Development",
 
     // Audience Profile
-    "age-range": "All ages",
+    "age-range": "25-65",
     "occupation": "Students, Teachers, Sports personalities, Working professionals, Local residents",
     "interests": "Community growth, Sports, Education, Cultural programs, Youth empowerment",
     "education-level": "Mixed Education Levels",
@@ -371,11 +371,11 @@ export const TEST_TEMPLATES = [
     "call-to-action": "Multiple Actions",
     "cta-instructions": "Encourage youth to actively participate in sports and community activities.\nSupport local sports teams.\nVolunteer for event organization.\nPromote a healthy lifestyle in your neighborhoods.",
     "speech-tone": "Encouraging and Inspirational",
-    "formality": "Semi-formal",
+    "formality": "Semi-Formal",
     "emotional-appeal": "Medium-High",
     "humor": "Light and context-appropriate",
     "rhetorical-devices": "Alliteration, Anecdotes, Parallelism, Metaphor",
-    "speech-length": "1500-2000 words (approximately 15-20 minutes)",
+    "speech-length": "1200 words (approximately 15 minutes)",
     "political-climate": "Community-focused, non-partisan, cooperative environment.",
     "recent-events": "Local tournaments, community welfare programs, youth festivals.",
     "campaign-stage": "Post-Election",
