@@ -282,7 +282,7 @@ export const SPEECH_TYPE_OPTIONS = [
   { value: 'Unity Speech', label: 'Unity Speech' },
   { value: 'Inauguration Speech', label: 'Inauguration Speech' },
   { value: 'Town Hall Speech', label: 'Town Hall Speech' },
-  { value: 'Town Hall Speech', label: 'Guest of Honor Address' },
+  { value: 'Town Hall Speech', label: 'Guest of Honour Address' },
   { value: 'other', label: 'Other Speech Type' },
 ];
 
@@ -433,6 +433,7 @@ export const SPEECH_TONE_OPTIONS = [
   { value: 'Patriotic', label: 'Patriotic' },
   { value: 'Empathetic', label: 'Empathetic' },
   { value: 'Confident', label: 'Confident' },
+  { value: 'Encouraging', label: 'Encouraging' },
 ];
 
 export const FORMALITY_OPTIONS = [
@@ -454,6 +455,7 @@ export const RHETORICAL_DEVICES_OPTIONS = [
   { value: 'Hyperbole', label: 'Hyperbole (exaggeration)' },
   { value: 'Climax', label: 'Climax (ascending importance)' },
   { value: 'Historical Reference', label: 'Historical Reference' },
+  { value: 'Anecdotes', label: 'Anecdotes' },
 ];
 
 export const PRIMARY_OBJECTIVE_MAP = {
