@@ -370,7 +370,7 @@ export const TEST_TEMPLATES = [
     "hypothetical-scenario": "Imagine a Vijayawada where every school has a playground, every child participates in at least one sport, and every community event is celebrated with the same enthusiasm as today.",
     "call-to-action": "Multiple Actions",
     "cta-instructions": "Encourage youth to actively participate in sports and community activities.\nSupport local sports teams.\nVolunteer for event organization.\nPromote a healthy lifestyle in your neighborhoods.",
-    "speech-tone": "Encouraging and Inspirational",
+    "speech-tone": "Encouraging",
     "formality": "Semi-Formal",
     "emotional-appeal": "Medium-High",
     "humor": "Light and context-appropriate",
