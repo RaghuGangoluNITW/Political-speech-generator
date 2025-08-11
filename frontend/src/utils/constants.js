@@ -8,6 +8,8 @@ export const EXPERTISE_OPTIONS = [
   { value: 'Foreign Policy', label: 'Foreign Policy' },
   { value: 'Technology', label: 'Technology' },
   { value: 'Social Justice', label: 'Social Justice' },
+  { value: 'Social Justice', label: 'Sports Promotion' },
+  { value: 'Social Justice', label: 'Civic Development' },
   { value: 'Infrastructure', label: 'Infrastructure' },
   { value: 'Housing', label: 'Housing' },
   { value: 'Agriculture', label: 'Agriculture' },
